@@ -1,0 +1,26 @@
+﻿  CheckpointTimeLogger.cpp
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251: 'CheckpointTimeLogger::m_RTBC': class 'std::vector<float,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'CheckpointTimeLogger'
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         with
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         [
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:             _Ty=float
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         ]
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message : see declaration of 'std::vector<float,std::allocator<_Ty>>'
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         with
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         [
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :             _Ty=float
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         ]
+  Wrapper.cpp
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.cpp(28,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251: 'CheckpointTimeLogger::m_RTBC': class 'std::vector<float,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'CheckpointTimeLogger'
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         with
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         [
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:             _Ty=float
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19,27): warning C4251:         ]
+  Generating Code...
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message : see declaration of 'std::vector<float,std::allocator<_Ty>>'
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         with
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         [
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :             _Ty=float
+C:\Users\LegoP\Desktop\DLL Tutorial\DLL Tutorial\CheckpointTimeLogger.h(19): message :         ]
+     Creating library C:\Users\LegoP\Desktop\DLL Tutorial\x64\Debug\DLL Tutorial.lib and object C:\Users\LegoP\Desktop\DLL Tutorial\x64\Debug\DLL Tutorial.exp
+  DLL Tutorial.vcxproj -> C:\Users\LegoP\Desktop\DLL Tutorial\x64\Debug\DLL Tutorial.dll

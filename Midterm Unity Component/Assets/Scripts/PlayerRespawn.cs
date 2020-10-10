@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
 {
-    public Transform playerBody;
     public Transform spawnPoint;
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
-        playerBody.transform.position = spawnPoint.transform.position;
+        Debug.Log("hello?");
+        other.transform.position = spawnPoint.transform.position;
     }
 }
